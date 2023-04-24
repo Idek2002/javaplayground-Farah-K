@@ -11,7 +11,13 @@ public class Toy implements Action {
     }
 
     @Override
+    public void play(Toy toy) {
+
+
+    System.out.println("Robot " + name + " is happy to see another toy"+ toy);}
+    @Override
     public String toString() {
         return name;
     }
 }
+

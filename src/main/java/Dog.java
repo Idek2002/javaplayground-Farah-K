@@ -11,3 +11,11 @@ public class Dog extends Animal {
         System.out.println("DOG " + name + " is chasing its tail");
     }
 }
+    @Override
+    public void play(Toy toy) {
+        System.out.println("DOG " + name + " is planning to eat the toy"+ toy);}
+@Override
+public String toString() {
+        return name;
+        }
+        }
